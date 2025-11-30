@@ -12,6 +12,24 @@ footer {
 }
 footer a { color: #fff; margin: 0 5px; text-decoration: none; }
 
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 100px 20px;
+}
+.hero img { max-width: 400px; width: 100%; }
+
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
 header {
     display: flex;
     justify-content: space-between;
